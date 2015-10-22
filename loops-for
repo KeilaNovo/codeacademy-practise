@@ -1,0 +1,7 @@
+hobbies = []
+
+# Add your code below!
+for hobby in range(3):
+    raw_input(" Your hobby:")
+    hobbies.append(hobby)
+    print hobby

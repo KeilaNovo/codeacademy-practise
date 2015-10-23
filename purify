@@ -1,0 +1,6 @@
+def purify(x):
+    total=[]
+    for c in x:
+        if c % 2 == 0:
+            total.append(c)
+    return total
